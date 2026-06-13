@@ -20,6 +20,7 @@ body {
   flex-direction: column;
   gap: 92px;
   background: #d1e3ff;
+  min-height: 100svh;
 }
 html {
   overflow-y: scroll;
@@ -86,6 +87,10 @@ button:hover {
 .yellow {
   background: #edbc60;
   color: #ac3730;
+}
+.red {
+  background: #ac3730;
+  color: #edbc60;
 }
 .mc {
   width: 100%;
@@ -257,5 +262,16 @@ main {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+  }
+}
+.p404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 216px 72px 0px 72px;
+  width: 100%;
+  img {
+    width: 100%;
+    height: auto;
   }
 }
