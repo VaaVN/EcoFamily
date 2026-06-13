@@ -4,24 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
-    <title>Деревяный бульвар</title>
+    <title>Эко-семья</title>
   </head>
   <body>
-    <header>
-      <img src="assets/img/logo.png" />
-      <div class="headerLinks">
-        <a href="">О нас</a><a href="">Мастер-классы</a
-        ><a href="">Ярмарка деревьев</a><a href="">Товары</a>
-      </div>
-    </header>
     <main>
-      <div class="titleFrame">
-        <h1>
-          Мы одна <br />
-          большая семья
-        </h1>
+      <div class="firstFrame">
+        <div class="titleFrame">
+          <div class="titleText">
+            <h1>Мы одна</h1>
+            <h1 style="text-align: center">большая семья</h1>
+          </div>
+          <div class="titleAbout">
+            <p>
+              Наш магазин акцентирует внимание <br />
+              на заботе о посетителях
+            </p>
+            <button class="blue" role="link" data-href="/aboutUs.html">
+              <h3>Подробнее</h3>
+            </button>
+          </div>
+        </div>
+        <div class="subTitleFrame">
+          <div class="infoBlock">
+            <h2>Товары</h2>
+            <div class="productsRoller">
+              <a class="card" data-js="productCard" href="products.html"
+                ><img src="assets\img\toyCard.png"
+              /></a>
+              <a class="card" data-js="productCard" href="products.html"
+                ><img src="assets\img\toyCard.png"
+              /></a>
+              <a class="card" data-js="productCard" href="products.html"
+                ><img src="assets\img\toyCard.png"
+              /></a>
+              <a class="card" data-js="productCard" href="products.html"
+                ><img src="assets\img\toyCard.png"
+              /></a>
+              <a class="card" data-js="productCard" href="products.html"
+                ><img src="assets\img\toyCard.png"
+              /></a>
+              <a class="card" data-js="productCard" href="products.html"
+                ><img src="assets\img\toyCard.png"
+              /></a>
+              <a class="card" data-js="productCard" href="products.html"
+                ><img src="assets\img\toyCard.png"
+              /></a>
+            </div>
+          </div>
+          <div class="infoBlock">
+            <h2>Мастер-классы</h2>
+            <img class="mc" src="assets/img/mastersclasses.png" />
+            <button class="yellow" role="link" data-href="/mastersClasses.html">
+              <h3>Подробнее</h3>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="secondFrame">
+        <div class="infoBlock">
+          <h2 style="color: #ac3730">Новости</h2>
+          <button class="yellow" role="link" data-href="/mastersClasses.html">
+            <h3>Подробнее</h3>
+          </button>
+        </div>
+        <div class="infoBlock">
+          <h2 style="color: #ac3730">Новости</h2>
+          <button class="yellow" role="link" data-href="/mastersClasses.html">
+            <h3>Подробнее</h3>
+          </button>
+        </div>
       </div>
     </main>
+    <footer>
+      <div class="footerBody">
+        <div class="linksColumns">
+          <div class="linksColumn">
+            <a href="">Веб-плакат ЯД</a> <a href="">Веб-плакат ДКВ</a>
+            <a href="">Зин ДКВ</a>
+          </div>
+          <div class="linksColumn">
+            <a href="">Портфолио бренда</a>
+            <a href="">Портфолио сайта</a>
+            <a href="">Портфолио зина ДКВ</a>
+            <a href="">Портфолио плаката ДКВ</a>
+          </div>
+          <div class="linksColumn">
+            <p>Нечаев Валерий БРИЦП251</p>
+            <a href="">Моё портфолио</a> <a href="">Моё портфолио ШД</a>
+          </div>
+        </div>
+        <img src="assets/img/footerLogo.svg" />
+      </div>
+    </footer>
     <script src="./scripts/main.js"></script>
+    <script src="./scripts/productCards.js"></script>
   </body>
 </html>
