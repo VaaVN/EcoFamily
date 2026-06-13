@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Mateur";
-  src: url("./assets/fonts/Mateur.ttf") format("truetype");
+  src: url("../assets/fonts/Mateur.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "129_Fatboy";
-  src: url("./assets/fonts/129_FATBOY.ttf") format("truetype");
+  src: url("../assets/fonts/129_FATBOY.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }

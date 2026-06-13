@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   let header = document.createElement("header");
   header = document.body.appendChild(header);
-  header.innerHTML = `<a href="index.html"><img  src="./assets/img/logo.svg" /></a>
+  header.innerHTML = `<a href="index.html"><img  src="../assets/img/logo.svg" /></a>
       <div class="headerLinks">
         <a href="aboutUs.html">О нас</a
         ><a href="masterСlasses.html">Мастер-классы</a
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <a href="">Моё портфолио</a> <a href="">Моё портфолио ШД</a>
           </div>
         </div>
-        <img src="./assets/img/footerLogo.svg" />
+        <img src="../assets/img/footerLogo.svg" />
       </div>`;
 
   const links = document.querySelectorAll('[role="link"]');
