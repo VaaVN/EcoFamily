@@ -13,18 +13,18 @@ document.addEventListener("DOMContentLoaded", () => {
   footer.innerHTML = `<div class="footerBody">
         <div class="linksColumns">
           <div class="linksColumn">
-            <a href="">Веб-плакат ЯД</a> <a href="">Веб-плакат ДКВ</a>
-            <a href="">Зин ДКВ</a>
+            <a href="https://vaavn.github.io/EntFair-AdaptivePposter/">Веб-плакат ЯД</a> <a href="https://vaavn.github.io/TreesAsInspiration/" target="_blank">Веб-плакат ДКВ</a>
+            <a href="https://www.calameo.com/read/008187931fe053970702e?authid=asxczqyHLspE" target="_blank">Зин ДКВ</a>
           </div>
           <div class="linksColumn">
-            <a href="">Портфолио бренда</a>
-            <a href="">Портфолио сайта</a>
-            <a href="">Портфолио зина ДКВ</a>
-            <a href="">Портфолио плаката ДКВ</a>
+            <a href="https://hsedesign.ru/project/eko-semya-brending-55ed45e70ae1412c995e1890a3bdfcdb" target="_blank">Портфолио бренда</a>
+            <a href="https://hsedesign.ru/project/eko-semya-mnogostranichnyj-sajt-1bed777ec9f74eeabd3c59d7e74eae81" target="_blank">Портфолио сайта</a>
+            <a href="https://hsedesign.ru/project/derevya-kak-vdokhno-453ebd4e1ec0488280d07945bfc632fd" target="_blank">Портфолио зина ДКВ</a>
+            <a href="https://hsedesign.ru/project/interaktivnyj-veb-plakat-7f890805c4894ba08f7d17a317bcad43" target="_blank">Портфолио плаката ДКВ</a>
           </div>
           <div class="linksColumn">
             <p>Нечаев Валерий БРИЦП251</p>
-            <a href="">Моё портфолио</a> <a href="">Моё портфолио ШД</a>
+            <a href="https://vaavn.github.io/Portfolio/" target="_blank">Моё портфолио</a> <a href="">Моё портфолио ШД</a>
           </div>
         </div>
         <img src="assets/img/footerLogo.svg" />
