@@ -4,19 +4,127 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" href="/assets/img/Favicon.png" type="image/png" />
     <title>Эко семья - Ежегодная Ярмарка</title>
   </head>
   <body>
-    <header>
-      <a href="index.html"><img src="assets/img/logo.png" /></a>
-      <div class="headerLinks">
-        <a href="aboutUs.html">О нас</a
-        ><a href="masterСlasses.html">Мастер-классы</a
-        ><a href="entFair.html">Ярмарка деревьев</a
-        ><a href="products.html  ">Товары</a>
+    <main>
+      <div class="firstFrame">
+        <div
+          style="background-image: url(&quot;/assets/img/titleEF.svg&quot;)"
+          class="titleFrame"
+        >
+          <div class="titleText">
+            <h1 style="color: #edbc60">Мы одна</h1>
+            <h1 style="text-align: center; color: #edbc60">большая семья</h1>
+          </div>
+          <div class="titleAbout">
+            <p style="color: #fff">
+              Наш магазин акцентирует внимание <br />
+              на&nbsp;заботе о&nbsp;посетителях
+            </p>
+            <button class="blue" role="link" data-href="/aboutUs.html">
+              <h3>Подробнее</h3>
+            </button>
+          </div>
+        </div>
+        <div style="background-color: #edbc60" class="subTitleFrame">
+          <div class="forHalfBlock">
+            <div class="halfBlock">
+              <div class="halfBlockText">
+                <h3>О чем ярмарка?</h3>
+                <p>
+                  Ярмарка поднимает проблему экологии и&nbsp;важность продуктов
+                  с&nbsp;чистым составом, часть заработанного идет в&nbsp;фонды
+                  помощи планете.
+                </p>
+              </div>
+              <img
+                style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  object-position: center;
+                "
+                src="/assets/img/efMock.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="infoBlock">
+            <div class="posters">
+              <div clss="posterCard">
+                <img src="/assets/img/1.png" />
+                <p>Лекции об экологии</p>
+              </div>
+              <div clss="posterCard">
+                <img src="/assets/img/2.png" />
+                <p>Природные продукты</p>
+              </div>
+              <div clss="posterCard">
+                <img src="/assets/img/3.png" />
+                <p>Выгодные акции</p>
+              </div>
+              <div clss="posterCard">
+                <img src="/assets/img/4.png" />
+                <p>Выгодные акции</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </header>
-    <main></main>
+      <div class="secondFrame">
+        <div class="infoBlock">
+          <h2 style="color: #ac3730">Подробнее</h2>
+          <div class="lmBlock">
+            <img style="width: 100%" src="/assets/img/webPoster.png" />
+            <div class="lmText">
+              <h2>ВЕБ-ПЛАКАТ!</h2>
+              <div class="lmSubText">
+                <p>
+                  У&nbsp;ярмарки деревьев есть свой рекламный веб-плакат
+                  со&nbsp;всей важной информацией.
+                </p>
+                <p>
+                  Веб-плакат анимированный, что позволяет лучше рассказать
+                  о&nbsp;главных идеях ярмарки деревьев.
+                </p>
+              </div>
+              <button
+                class="red"
+                role="link"
+                data-href="https://vaavn.github.io/EntFair-AdaptivePposter/"
+              >
+                <h3>Просмотреть</h3>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="infoBlock">
+          <div class="trail">
+            <div class="animFrame">
+              <img class="mc" src="assets/img/ef.png" />
+              <img class="mc" src="assets/img/ef.png" />
+            </div>
+          </div>
+        </div>
+        <div class="infoBlock">
+          <div class="formMessage">
+            <h2>Сотрудничество</h2>
+            <p>
+              Хочешь прийти на&nbsp;ярмарку со&nbsp;своим товаром, лекцией или
+              мастер-классом? Напиши нам!
+            </p>
+            <div class="formButtons">
+              <input type="text" placeholder="ivanivanov@yandex.ru" />
+              <button class="yellow" role="link" data-href="/form.html">
+                <h3>Подписаться</h3>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer></footer>
     <script src="./scripts/main.js"></script>
   </body>

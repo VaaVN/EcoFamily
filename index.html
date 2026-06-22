@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" href="/assets/img/Favicon.png" type="image/png" />
     <title>Эко-семья</title>
   </head>
   <body>
     <main>
       <div class="firstFrame">
-        <div class="titleFrame">
+        <div
+          style="background-image: url(&quot;/assets/img/titleMain.svg&quot;)"
+          class="titleFrame"
+        >
           <div class="titleText">
             <h1>Мы одна</h1>
             <h1 style="text-align: center">большая семья</h1>
@@ -17,7 +21,7 @@
           <div class="titleAbout">
             <p>
               Наш магазин акцентирует внимание <br />
-              на заботе о посетителях
+              на&nbsp;заботе о&nbsp;посетителях
             </p>
             <button class="blue" role="link" data-href="/aboutUs.html">
               <h3>Подробнее</h3>
@@ -32,19 +36,19 @@
                 ><img src="assets\img\toyCard.png"
               /></a>
               <a class="card" data-js="productCard" href="products.html"
-                ><img src="assets\img\toyCard.png"
+                ><img src="assets\img\toyCard2.png"
               /></a>
               <a class="card" data-js="productCard" href="products.html"
                 ><img src="assets\img\toyCard.png"
               /></a>
               <a class="card" data-js="productCard" href="products.html"
-                ><img src="assets\img\toyCard.png"
+                ><img src="assets\img\toyCard2.png"
               /></a>
               <a class="card" data-js="productCard" href="products.html"
                 ><img src="assets\img\toyCard.png"
               /></a>
               <a class="card" data-js="productCard" href="products.html"
-                ><img src="assets\img\toyCard.png"
+                ><img src="assets\img\toyCard2.png"
               /></a>
               <a class="card" data-js="productCard" href="products.html"
                 ><img src="assets\img\toyCard.png"
@@ -53,7 +57,12 @@
           </div>
           <div class="infoBlock">
             <h2>Мастер-классы</h2>
-            <img class="mc" src="assets/img/mastersclasses.png" />
+            <div class="trail">
+              <div class="animFrame">
+                <img class="mc" src="assets/img/mastersclasses.png" />
+                <img class="mc" src="assets/img/mastersclasses.png" />
+              </div>
+            </div>
             <button class="yellow" role="link" data-href="/masterСlasses.html">
               <h3>Подробнее</h3>
             </button>
@@ -63,11 +72,31 @@
       <div class="secondFrame">
         <div class="infoBlock">
           <h2 style="color: #ac3730">Новости</h2>
+          <div class="news">
+            <a class="efNews" href="/entFair.html">
+              <img src="assets/img/efnews.png" alt="" />
+              <div class="newsName"><p>Ежегодная ярмарка</p></div></a
+            >
+            <a class="mcNews" href="/masterСlasses.html">
+              <img src="assets/img/mcnews.png" alt="" />
+              <div class="newsName"><p>Новый мастер-класс!</p></div>
+            </a>
+          </div>
         </div>
         <div class="infoBlock">
-          <button class="yellow" role="link" data-href="/404.html">
-            <h3>Подписаться</h3>
-          </button>
+          <div class="formMessage">
+            <h2>Рассылка</h2>
+            <p>
+              Хочешь получать всю важную информацию о&nbsp;новых мероприятиях
+              и&nbsp;мастер-классах?
+            </p>
+            <div class="formButtons">
+              <input type="text" placeholder="ivanivanov@yandex.ru" />
+              <button class="yellow" role="link" data-href="/form.html">
+                <h3>Подписаться</h3>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </main>
