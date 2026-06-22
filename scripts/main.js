@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   footer.innerHTML = `<div class="footerBody">
         <div class="linksColumns">
           <div class="linksColumn">
-            <a href="https://vaavn.github.io/EntFair-AdaptivePposter/">Веб-плакат ЯД</a> <a href="https://vaavn.github.io/TreesAsInspiration/" target="_blank">Веб-плакат ДКВ</a>
+            <a href="https://vaavn.github.io/EntFair-AdaptivePposter/"  target="_blank">Веб-плакат ЯД</a> <a href="https://vaavn.github.io/TreesAsInspiration/" target="_blank">Веб-плакат ДКВ</a>
             <a href="https://www.calameo.com/read/008187931fe053970702e?authid=asxczqyHLspE" target="_blank">Зин ДКВ</a>
           </div>
           <div class="linksColumn">
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
           <div class="linksColumn">
             <p>Нечаев Валерий БРИЦП251</p>
-            <a href="https://vaavn.github.io/Portfolio/" target="_blank">Моё портфолио</a> <a href="">Моё портфолио ШД</a>
+            <a href="https://vaavn.github.io/Portfolio/" target="_blank">Моё портфолио</a> <a href="https://hsedesign.ru/account/valeriy-nechaev-e59cea8229d146afbba67d43d4a850be" target="_blank">Моё портфолио ШД</a>
           </div>
         </div>
         <img src="assets/img/footerLogo.svg" />
